@@ -1,0 +1,138 @@
+[
+  {
+    "Property": "autoInsertSpace",
+    "Description": "We add a space between two Chinese characters by default, which can be removed by setting autoInsertSpace to false.",
+    "Type": "boolean",
+    "Default": "true",
+    "Version": "5.17.0",
+    "description_ko": "기본적으로 두 중국어 문자 사이에 공백을 추가합니다. 이는 autoInsertSpace를 false로 설정하여 제거할 수 있습니다."
+  },
+  {
+    "Property": "block",
+    "Description": "Option to fit button width to its parent width",
+    "Type": "boolean",
+    "Default": "false",
+    "Version": "",
+    "description_ko": "버튼 너비를 상위 너비에 맞추는 옵션"
+  },
+  {
+    "Property": "classNames",
+    "Description": "Semantic DOM class",
+    "Type": "Record<SemanticDOM, string>",
+    "Default": "-",
+    "Version": "5.4.0",
+    "description_ko": "시맨틱 DOM 클래스"
+  },
+  {
+    "Property": "danger",
+    "Description": "Set the danger status of button",
+    "Type": "boolean",
+    "Default": "false",
+    "Version": "",
+    "description_ko": "버튼의 위험 상태 설정"
+  },
+  {
+    "Property": "disabled",
+    "Description": "Disabled state of button",
+    "Type": "boolean",
+    "Default": "false",
+    "Version": "",
+    "description_ko": "버튼 비활성화 상태"
+  },
+  {
+    "Property": "ghost",
+    "Description": "Make background transparent and invert text and border colors",
+    "Type": "boolean",
+    "Default": "false",
+    "Version": "",
+    "description_ko": "배경을 투명하게 만들고 텍스트와 테두리 색상을 반전시킵니다."
+  },
+  {
+    "Property": "href",
+    "Description": "Redirect url of link button",
+    "Type": "string",
+    "Default": "-",
+    "Version": "",
+    "description_ko": "링크 버튼의 URL 리디렉션"
+  },
+  {
+    "Property": "htmlType",
+    "Description": "Set the original html type of button, see: MDN",
+    "Type": "string",
+    "Default": "button",
+    "Version": "",
+    "description_ko": "원래 html 유형의 버튼을 설정하세요. MDN을 참조하세요."
+  },
+  {
+    "Property": "icon",
+    "Description": "Set the icon component of button",
+    "Type": "ReactNode",
+    "Default": "-",
+    "Version": "",
+    "description_ko": "버튼의 아이콘 구성요소 설정"
+  },
+  {
+    "Property": "iconPosition",
+    "Description": "Set the icon position of button",
+    "Type": "start | end",
+    "Default": "start",
+    "Version": "5.17.0",
+    "description_ko": "버튼의 아이콘 위치 설정"
+  },
+  {
+    "Property": "loading",
+    "Description": "Set the loading status of button",
+    "Type": "boolean | { delay: number }",
+    "Default": "false",
+    "Version": "",
+    "description_ko": "버튼의 로딩 상태 설정"
+  },
+  {
+    "Property": "shape",
+    "Description": "Can be set button shape",
+    "Type": "default | circle | round",
+    "Default": "default",
+    "Version": "",
+    "description_ko": "버튼 모양 설정 가능"
+  },
+  {
+    "Property": "size",
+    "Description": "Set the size of button",
+    "Type": "large | middle | small",
+    "Default": "middle",
+    "Version": "",
+    "description_ko": "버튼의 크기를 설정"
+  },
+  {
+    "Property": "styles",
+    "Description": "Semantic DOM style",
+    "Type": "Record<SemanticDOM, CSSProperties>",
+    "Default": "-",
+    "Version": "5.4.0",
+    "description_ko": "시맨틱 DOM 스타일"
+  },
+  {
+    "Property": "target",
+    "Description": "Same as target attribute of a, works when href is specified",
+    "Type": "string",
+    "Default": "-",
+    "Version": "",
+    "description_ko": "a의 대상 속성과 동일하며 href가 지정되면 작동합니다."
+  },
+  {
+    "Property": "type",
+    "Description": "Set button type",
+    "Type": "primary | dashed | link | text | default",
+    "Default": "default",
+    "Version": "",
+    "description_ko": "버튼 유형 설정"
+  },
+  {
+    "Property": "onClick",
+    "Description": "Set the handler to handle click event",
+    "Type": "(event: React.MouseEvent<HTMLElement, MouseEvent>) => void",
+    "Default": "-",
+    "Version": "",
+    "description_ko": "클릭 이벤트를 처리하도록 핸들러 설정"
+  }
+]
